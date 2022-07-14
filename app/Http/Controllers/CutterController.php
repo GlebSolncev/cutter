@@ -7,6 +7,7 @@ use App\Services\CutterService;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 
 /**
@@ -51,11 +52,11 @@ class CutterController extends Controller
     }
 
     /**
-     * @param string $hash
+     * @param Model $model
      * @return RedirectResponse|never
      */
-    public function redirect(string $hash)
+    public function redirect(Model $model)
     {
-        return $this->service->redirectByHash($hash);
+        return $this->service->redirectByHash($model);
     }
 }

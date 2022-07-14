@@ -24,4 +24,11 @@ class Cutter extends Model
         'limit',
     ];
 
+    /**
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'hash';
+    }
 }
