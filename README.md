@@ -6,6 +6,14 @@ Cut links with limit and save in db. Work with docker.
 Added Makefile for with usability `make`
 
 #### Guide
+- Update .env  from .env.example `cp .env.example .env`
+- Set DB info:
+    - DB_CONNECTION=mysql
+    - DB_HOST=db
+    - DB_PORT=3306
+    - DB_DATABASE=cutter
+    - DB_USERNAME=user
+    - DB_PASSWORD=mypassword
 - Firstly build project: `make build`
 - Second step is up containers: `make up`
 - [Go to link](http://localhost:8000)
