@@ -14,12 +14,12 @@ Added Makefile for with usability `make`
     - DB_DATABASE=cutter
     - DB_USERNAME=user
     - DB_PASSWORD=mypassword
-- Firstly build project: `make build`
-- Second step is up containers: `make up`
+- Build project: `make build`
+- Up containers: `make up`
 - [Go to link](http://localhost:8000)
 
 #### Help instruction
 - You can saw list commands: `make help`
 - Sometimes you need check containers if localhost doesen't work `docker-compose ps`
-- When you in second step, you need wait some 265.1s(it's my time)
+- When you in three step, you need wait some 265.1s(it's my time)
 - If you have a few questions - send me to telegram @glurk
