@@ -21,7 +21,7 @@ Added Makefile for with usability `make`
   - `composer install`
   - `php artisan key:generate`
   - `php artisan migrate`
-- [Go to link](http://localhost:8000)
+- Finish. You can [Go to link](http://localhost:8000)
 
 #### Help instruction
 - You can saw list commands: `make help`
