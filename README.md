@@ -16,6 +16,10 @@ Added Makefile for with usability `make`
     - DB_PASSWORD=mypassword
 - Build project: `make build`
 - Up containers: `make up`
+- You need enter `composer install` and `key:generate` in container php-fpm
+  - `make cli`
+  - `composer install`
+  - `php artisan key:generate`
 - [Go to link](http://localhost:8000)
 
 #### Help instruction
