@@ -17,10 +17,10 @@ Added Makefile for with usability `make`
 - Build project: `make build`
 - Up containers: `make up`
 - You need enter `composer install`, `key:generate`, `migration` in container php-fpm
-  - `make cli`
-  - `composer install`
-  - `php artisan key:generate`
-  - `php artisan migrate`
+  - Go in cli container - `make cli`
+  - Composer install (in container) - `composer install`
+  - Key generate (in container) - `php artisan key:generate`
+  - Migrate to DB (in container) - `php artisan migrate`
 - Finish. You can [Go to link](http://localhost:8000)
 
 #### Help instruction
