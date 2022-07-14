@@ -13,4 +13,5 @@ Added Makefile for with usability `make`
 #### Help instruction
 - You can saw list commands: `make help`
 - Sometimes you need check containers if localhost doesen't work `docker-compose ps`
+- When you in second step, you need wait some 265.1s(it's my time)
 - If you have a few questions - send me to telegram @glurk
